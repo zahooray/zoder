@@ -11,8 +11,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zahooronly/Zoder-vscode-theme.git"
+    "url": "https://github.com/ZahoorOnly/Zoder-vscode-theme.git"
   },
+  "keywords": [
+    "theme",
+    "dark",
+    "darktheme",
+    "dark theme",
+    "zoder",
+    "Zoder",
+    "Zoder Dark",
+    "Zoder By Zahoor",
+    "Zahoor Ahmad",
+    "ZahoorOnly"
+  ],
   "contributes": {
     "themes": [
       {
