@@ -1,0 +1,21 @@
+{
+  "name": "zoder",
+  "displayName": "Zoder",
+  "description": "Zoder is Zahoor's First Coding Theme for VS Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Zoder",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Zoder-color-theme.json"
+      }
+    ]
+  }
+}
