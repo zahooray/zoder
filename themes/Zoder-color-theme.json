@@ -1,5 +1,5 @@
 {
-  "name": "Monokai Pro Inspired",
+  "name": "Zoder.",
   "type": "dark",
   "colors": {
     "editor.background": "#2D2A2E",
@@ -56,7 +56,8 @@
     {
       "scope": ["operator", "keyword.operator"],
       "settings": {
-        "foreground": "#FCFCFA"
+        "foreground": "#FCFCFA",
+        "fontStyle": "" // Removed italic
       }
     },
     {
@@ -126,13 +127,27 @@
       "scope": ["keyword.control.import", "keyword.control.export"],
       "settings": {
         "foreground": "#FF6188",
-		"fontStyle": "italic bold"
+        "fontStyle": "italic bold"
       }
     },
     {
       "scope": ["meta.type.annotation"],
       "settings": {
         "foreground": "#AB9DF2"
+      }
+    },
+    {
+      "scope": ["support.type.property-name.json"],
+      "settings": {
+        "foreground": "#FFD866" // Yellow color for JSON keys
+      }
+    },
+    {
+      "scope": [
+        "meta.structure.dictionary.value.json string.quoted.double.json"
+      ],
+      "settings": {
+        "foreground": "#A9DC76" // Green color for JSON values
       }
     }
   ]
