@@ -2,7 +2,7 @@
   "name": "zoder",
   "displayName": "Zoder",
   "description": "Zoder is a Dark Coding Theme for VS Code. Zoder is specially designed for JavaScript, TypeScript, Next.js, React.js and Python",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "ZahoorOnly",
   "engines": {
     "vscode": "^1.91.0"
