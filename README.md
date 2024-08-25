@@ -1,13 +1,6 @@
-<!-- # Zoder
+![Zoder Logo](./asset/images/Logo.png)
 
-![Zoder Logo](./logo.png) -->
-
-<div style="text-align: center;">
-    <img src="./logo.png" alt="Zoder Logo" width="70" style="vertical-align: middle;"/>
-    <h1 style="display: inline-block; margin: 0; vertical-align: middle; margin-left:10px;font-size:50px">Zoder.</h1>
-</div>
-
-<!-- # <img src="./logo.png" alt="Zoder Logo" width="30"/> Zoder -->
+# Zoder
 
 # Introduction
 

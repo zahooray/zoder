@@ -1,15 +1,15 @@
 {
   "name": "zoder",
   "displayName": "Zoder",
-  "description": "Zoder is a Dark Coding Theme for VS Code. Zoder is specially designed for JavaScript, TypeScript, Next.js, React.js and Python",
-  "version": "0.0.2",
-  "publisher": "ZahoorOnly",
+  "description": "Zoder is Zahoor's First Coding Theme for VS Code",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.91.0"
   },
   "categories": [
     "Themes"
   ],
+  "icon": "/asset/images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/ZahoorOnly/Zoder-vscode-theme.git"
