@@ -1,7 +1,8 @@
 {
   "name": "zoder",
   "displayName": "Zoder",
-  "description": "Zoder is Zahoor's First Coding Theme for VS Code",
+  "description": "Zoder is a meticulously crafted dark theme designed to enhance your coding experience in Visual Studio Code. Inspired by the Monokai Pro aesthetic, Zoder provides a visually appealing and comfortable environment with a balanced color palette that reduces eye strain and boosts productivity during long coding sessions. Featuring a sophisticated dark background with vibrant, high-contrast colors, Zoder enhances readability and focus. With comprehensive language support and enhanced syntax highlighting, Zoder ensures a consistent and pleasant coding experience across a wide range of programming languages.",
+  "publisher": "ZahoorOnly",
   "version": "0.0.3",
   "engines": {
     "vscode": "^1.91.0"
@@ -9,7 +10,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "/asset/images/icon.png",
+  "icon": "asset/images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/ZahoorOnly/Zoder-vscode-theme.git"

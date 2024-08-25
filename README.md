@@ -38,6 +38,97 @@ function greet(name: string): string {
 greet("World");
 ```
 
+#### Javascript
+
+```javascript
+function greet(name) {
+  const greeting = `Hello, ${name}!`;
+  console.log(greeting);
+  return greeting;
+}
+
+greet("World");
+```
+
+#### Java
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(greet("World"));
+    }
+
+    public static String greet(String name) {
+        return "Hello, " + name + "!";
+    }
+}
+
+```
+
+#### C#
+
+```C#
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine(Greet("World"));
+    }
+
+    static string Greet(string name)
+    {
+        return $"Hello, {name}!";
+    }
+}
+```
+
+#### C++
+
+```c++
+#include <iostream>
+#include <string>
+
+std::string greet(const std::string& name) {
+    return "Hello, " + name + "!";
+}
+
+int main() {
+    std::cout << greet("World") << std::endl;
+    return 0;
+}
+
+```
+
+#### Go(Golang)
+
+```go
+package main
+
+import "fmt"
+
+func greet(name string) string {
+    return fmt.Sprintf("Hello, %s!", name)
+}
+
+func main() {
+    fmt.Println(greet("World"))
+}
+```
+
+#### Rust
+
+```rust
+fn greet(name: &str) -> String {
+    format!("Hello, {}!", name)
+}
+
+fn main() {
+    println!("{}", greet("World"));
+}
+```
+
 ## Installation
 
 You can install the Zoder theme from the Visual Studio Code Marketplace.
@@ -61,5 +152,9 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 - [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 - [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+
+```
+This updated `README.md` includes demo code for the top 8 languages while preserving the original content.
+```
 
 **Enjoy coding with Zoder!**

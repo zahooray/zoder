@@ -1,5 +1,6 @@
 {
   "name": "Zoder.",
+  "semanticHighlighting": true,
   "type": "dark",
   "colors": {
     "editor.background": "#2D2A2E",
@@ -57,7 +58,7 @@
       "scope": ["operator", "keyword.operator"],
       "settings": {
         "foreground": "#FCFCFA",
-        "fontStyle": "" // Removed italic
+        "fontStyle": "bold"
       }
     },
     {
@@ -148,6 +149,163 @@
       ],
       "settings": {
         "foreground": "#A9DC76" // Green color for JSON values
+      }
+    },
+    {
+      "scope": ["keyword.operator.arithmetic.python"],
+      "settings": {
+        "foreground": "#FFD866" // Python arithmetic operators
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.import.python",
+        "keyword.control.import.java",
+        "keyword.control.import.ts",
+        "keyword.control.import.js"
+      ],
+      "settings": {
+        "foreground": "#FF6188", // Import statements
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "support.function.python",
+        "support.function.js",
+        "support.function.ts"
+      ],
+      "settings": {
+        "foreground": "#FFD866" // Function names in Python, JavaScript, TypeScript
+      }
+    },
+    {
+      "scope": [
+        "entity.name.class.python",
+        "entity.name.class.java",
+        "entity.name.class.ts",
+        "entity.name.class.js"
+      ],
+      "settings": {
+        "foreground": "#AB9DF2" // Class names in Python, JavaScript, Java, TypeScript
+      }
+    },
+    {
+      "scope": ["storage.type.cs", "storage.type.cpp", "storage.type.rust"],
+      "settings": {
+        "foreground": "#FF6188", // Keywords in C#, C++, Rust
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.constant.swift",
+        "variable.other.constant.kotlin"
+      ],
+      "settings": {
+        "foreground": "#AB9DF2" // Constants in Swift, Kotlin
+      }
+    },
+    {
+      "scope": ["support.class.php", "support.class.ruby"],
+      "settings": {
+        "foreground": "#FFD866" // Support classes in PHP, Ruby
+      }
+    },
+    {
+      "scope": ["constant.language.sql", "keyword.other.sql"],
+      "settings": {
+        "foreground": "#FF6188" // SQL constants and keywords
+      }
+    },
+    {
+      "scope": ["support.function.matlab"],
+      "settings": {
+        "foreground": "#FFD866" // MATLAB functions
+      }
+    },
+    {
+      "scope": ["support.type.scala", "support.type.dart"],
+      "settings": {
+        "foreground": "#AB9DF2" // Types in Scala, Dart
+      }
+    },
+    {
+      "scope": ["constant.language.perl"],
+      "settings": {
+        "foreground": "#FF6188" // Constants in Perl
+      }
+    },
+    {
+      "scope": ["support.function.builtin.shell"],
+      "settings": {
+        "foreground": "#FFD866" // Built-in functions in Shell
+      }
+    },
+    {
+      "scope": ["keyword.control.lua"],
+      "settings": {
+        "foreground": "#FF6188" // Lua keywords
+      }
+    },
+    {
+      "scope": ["entity.name.function.oc"],
+      "settings": {
+        "foreground": "#FFD866" // Objective-C function names
+      }
+    },
+    {
+      "scope": ["entity.name.tag.haskell"],
+      "settings": {
+        "foreground": "#AB9DF2" // Tags in Haskell
+      }
+    },
+    {
+      "scope": ["support.function.erlang"],
+      "settings": {
+        "foreground": "#FFD866" // Functions in Erlang
+      }
+    },
+    {
+      "scope": ["keyword.control.elixir"],
+      "settings": {
+        "foreground": "#FF6188" // Keywords in Elixir
+      }
+    },
+    {
+      "scope": ["storage.type.fsharp"],
+      "settings": {
+        "foreground": "#AB9DF2" // F# types
+      }
+    },
+    {
+      "scope": ["entity.name.tag.groovy"],
+      "settings": {
+        "foreground": "#FFD866" // Tags in Groovy
+      }
+    },
+    {
+      "scope": ["support.function.builtin.julia"],
+      "settings": {
+        "foreground": "#FFD866" // Julia built-in functions
+      }
+    },
+    {
+      "scope": ["keyword.control.solidity"],
+      "settings": {
+        "foreground": "#FF6188" // Solidity keywords
+      }
+    },
+    {
+      "scope": ["storage.type.vhdl", "storage.type.verilog"],
+      "settings": {
+        "foreground": "#FFD866" // VHDL/Verilog types
+      }
+    },
+    {
+      "scope": ["keyword.other.assembly"],
+      "settings": {
+        "foreground": "#FF6188" // Assembly keywords
       }
     }
   ]
