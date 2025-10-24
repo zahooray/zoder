@@ -140,7 +140,7 @@
     {
       "scope": ["support.type.property-name.json"],
       "settings": {
-        "foreground": "#FFD866" // Yellow color for JSON keys
+        "foreground": "#FFD866"
       }
     },
     {
@@ -148,13 +148,13 @@
         "meta.structure.dictionary.value.json string.quoted.double.json"
       ],
       "settings": {
-        "foreground": "#A9DC76" // Green color for JSON values
+        "foreground": "#A9DC76"
       }
     },
     {
       "scope": ["keyword.operator.arithmetic.python"],
       "settings": {
-        "foreground": "#FFD866" // Python arithmetic operators
+        "foreground": "#FFD866"
       }
     },
     {
@@ -165,7 +165,7 @@
         "keyword.control.import.js"
       ],
       "settings": {
-        "foreground": "#FF6188", // Import statements
+        "foreground": "#FF6188",
         "fontStyle": "italic"
       }
     },
@@ -176,7 +176,7 @@
         "support.function.ts"
       ],
       "settings": {
-        "foreground": "#FFD866" // Function names in Python, JavaScript, TypeScript
+        "foreground": "#FFD866"
       }
     },
     {
@@ -187,13 +187,13 @@
         "entity.name.class.js"
       ],
       "settings": {
-        "foreground": "#AB9DF2" // Class names in Python, JavaScript, Java, TypeScript
+        "foreground": "#AB9DF2"
       }
     },
     {
       "scope": ["storage.type.cs", "storage.type.cpp", "storage.type.rust"],
       "settings": {
-        "foreground": "#FF6188", // Keywords in C#, C++, Rust
+        "foreground": "#FF6188",
         "fontStyle": "italic"
       }
     },
@@ -203,109 +203,109 @@
         "variable.other.constant.kotlin"
       ],
       "settings": {
-        "foreground": "#AB9DF2" // Constants in Swift, Kotlin
+        "foreground": "#AB9DF2"
       }
     },
     {
       "scope": ["support.class.php", "support.class.ruby"],
       "settings": {
-        "foreground": "#FFD866" // Support classes in PHP, Ruby
+        "foreground": "#FFD866"
       }
     },
     {
       "scope": ["constant.language.sql", "keyword.other.sql"],
       "settings": {
-        "foreground": "#FF6188" // SQL constants and keywords
+        "foreground": "#FF6188"
       }
     },
     {
       "scope": ["support.function.matlab"],
       "settings": {
-        "foreground": "#FFD866" // MATLAB functions
+        "foreground": "#FFD866"
       }
     },
     {
       "scope": ["support.type.scala", "support.type.dart"],
       "settings": {
-        "foreground": "#AB9DF2" // Types in Scala, Dart
+        "foreground": "#AB9DF2"
       }
     },
     {
       "scope": ["constant.language.perl"],
       "settings": {
-        "foreground": "#FF6188" // Constants in Perl
+        "foreground": "#FF6188"
       }
     },
     {
       "scope": ["support.function.builtin.shell"],
       "settings": {
-        "foreground": "#FFD866" // Built-in functions in Shell
+        "foreground": "#FFD866"
       }
     },
     {
       "scope": ["keyword.control.lua"],
       "settings": {
-        "foreground": "#FF6188" // Lua keywords
+        "foreground": "#FF6188"
       }
     },
     {
       "scope": ["entity.name.function.oc"],
       "settings": {
-        "foreground": "#FFD866" // Objective-C function names
+        "foreground": "#FFD866"
       }
     },
     {
       "scope": ["entity.name.tag.haskell"],
       "settings": {
-        "foreground": "#AB9DF2" // Tags in Haskell
+        "foreground": "#AB9DF2"
       }
     },
     {
       "scope": ["support.function.erlang"],
       "settings": {
-        "foreground": "#FFD866" // Functions in Erlang
+        "foreground": "#FFD866"
       }
     },
     {
       "scope": ["keyword.control.elixir"],
       "settings": {
-        "foreground": "#FF6188" // Keywords in Elixir
+        "foreground": "#FF6188"
       }
     },
     {
       "scope": ["storage.type.fsharp"],
       "settings": {
-        "foreground": "#AB9DF2" // F# types
+        "foreground": "#AB9DF2"
       }
     },
     {
       "scope": ["entity.name.tag.groovy"],
       "settings": {
-        "foreground": "#FFD866" // Tags in Groovy
+        "foreground": "#FFD866"
       }
     },
     {
       "scope": ["support.function.builtin.julia"],
       "settings": {
-        "foreground": "#FFD866" // Julia built-in functions
+        "foreground": "#FFD866"
       }
     },
     {
       "scope": ["keyword.control.solidity"],
       "settings": {
-        "foreground": "#FF6188" // Solidity keywords
+        "foreground": "#FF6188"
       }
     },
     {
       "scope": ["storage.type.vhdl", "storage.type.verilog"],
       "settings": {
-        "foreground": "#FFD866" // VHDL/Verilog types
+        "foreground": "#FFD866"
       }
     },
     {
       "scope": ["keyword.other.assembly"],
       "settings": {
-        "foreground": "#FF6188" // Assembly keywords
+        "foreground": "#FF6188"
       }
     }
   ]
