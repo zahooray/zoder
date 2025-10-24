@@ -13,7 +13,7 @@
   "icon": "asset/images/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ZahoorOnly/Zoder-vscode-theme.git"
+    "url": "https://github.com/ZahoorOnly/zoder.git"
   },
   "keywords": [
     "theme",
@@ -32,7 +32,7 @@
       {
         "label": "Zoder",
         "uiTheme": "vs-dark",
-        "path": "./themes/Zoder-color-theme.json"
+        "path": "./themes/zoder.json"
       }
     ]
   }
